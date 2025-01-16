@@ -1,11 +1,11 @@
-# 小红书翻译助手 (XHS Translate)
+# RedNote Translation (小红本翻译)
 
 [English](#english) | [中文](#chinese)
 
 <a name="chinese"></a>
 ## 中文说明
 
-一个简单易用的 Chrome 扩展，为小红书提供实时翻译功能。
+一个简单易用的 Chrome 扩展，为小红书（小红本）提供实时翻译功能。
 
 ### 安装说明
 
@@ -49,7 +49,7 @@
 ### 项目结构
 
 ```
-xhsTranslate/
+RedNote-Translation/
 ├── manifest.json        # 扩展配置文件
 ├── content.js          # 主要功能实现
 ├── background.js       # 后台脚本
@@ -93,7 +93,7 @@ MIT License
 <a name="english"></a>
 ## English Documentation
 
-A user-friendly Chrome extension that provides real-time translation for Xiaohongshu (Little Red Book) comments.
+A user-friendly Chrome extension that provides real-time translation for RedNote (Xiaohongshu/Little Red Book) comments.
 
 ### Installation Guide
 
@@ -137,7 +137,7 @@ Note: Due to Chrome security policies, the extension currently only supports ins
 ### Project Structure
 
 ```
-xhsTranslate/
+RedNote-Translation/
 ├── manifest.json        # Extension configuration file
 ├── content.js          # Main functionality implementation
 ├── background.js       # Background script
