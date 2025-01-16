@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            width: 300px;
+            padding: 10px;
+            font-family: Arial, sans-serif;
+        }
+        .title {
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .description {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 15px;
+        }
+        .api-input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .save-button {
+            background: #ff2442;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .save-button:hover {
+            background: #ff3d57;
+        }
+    </style>
+</head>
+<body>
+    <div class="title">XHS Translator</div>
+    <div class="description">
+        选中文本后点击翻译按钮即可进行中英互译。<br>
+        请先配置百度翻译 API 信息：
+    </div>
+    <input type="text" class="api-input" id="appid" placeholder="输入百度翻译 APP ID">
+    <input type="text" class="api-input" id="key" placeholder="输入百度翻译密钥">
+    <button class="save-button" id="saveButton">保存</button>
+    <script src="popup.js"></script>
+</body>
+</html> 
